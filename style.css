@@ -15,17 +15,160 @@ body{
 }
 
 img{
-    width: 50%;
+    width: 150%;
     display: block;
     margin-right: auto;
 }
 
+.container{
+    display: flex;
+    margin-top: 2%;
+}
+
+.container img{
+    width: 45%;
+}
+
+.boite{
+    width: 400%;
+    margin-right: 20%;
+}
+
 .boite1{
     width: 100%;
-    height: 200px;
-    border: solid 2px pink;
+    height: 250px;
+    margin-top: 6%;
+}
+
+.boite1:hover{
+    background-color: blueviolet;
+}
+
+.boite1:hover p{
+    color:azure;
+    font-size: 35px;
+    padding-top: 2.5%;
 }
 
 p{
     color: aqua;
+    font-size: 40px;
+    text-align:center;
+}
+
+.container1{
+    display: flex;
+    margin-top: 5%;
+}
+
+.container2{
+    display: flex;
+    margin-top: 5%;
+}
+
+.img{
+    width: 35%;
+}
+
+.boite2{
+    width: 47%;
+    margin-top: 2%;
+    margin-bottom: auto;
+}
+
+.boite2:hover{
+    background-color:greenyellow;
+    margin-top: 2.5%;
+}
+
+.boite2:hover p{
+    color: red;
+    font-size: 35px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.container3{
+    display: flex;
+    margin-top: 5%;
+}
+
+.container3 img{
+    width: 46%
+}
+
+.boite3{
+    width: 55%;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.boite3:hover{
+    padding-top: 2%;
+    background-color: pink;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.boite3:hover p{
+    color: #34495e;
+}
+
+footer{
+    display: flex;
+}
+
+nav{
+    margin: 27px auto 0;
+    margin-left: 85%;
+    position: relative;
+    width: 470px;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+}
+
+nav a{
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+
+a:nth-child(1){
+    width: 100px;
+}
+
+a:nth-child(2){
+    width: 110px;
+}
+
+a:nth-child(3){
+    width: 100px;
+}
+
+a:nth-child(4){
+    width: 160px;
+}
+
+span{
+    color: #2BD6B4;
 }
